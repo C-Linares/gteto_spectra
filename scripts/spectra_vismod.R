@@ -62,7 +62,7 @@ vismo_chiro<-vismodel(meanred.flux,
 
 vm2
 plot(vm2)
-barplot(as.matrix(vismo_chiro[1:4]))
+barplot(as.matrix(vismo_chiro[1:4]),)
 
 # visual form the models
 for (i in 1:11) {
